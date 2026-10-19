@@ -1,118 +1,89 @@
-
-
+/* ESTRUCTURA Y FONDO */
 body {
-    background-color: #9e9e9e;
-    font-family: sans-serif;
+    font-family: 'Inter Tight';
+    background-color: #f0f2f5; /* Fondo gris para la pantalla */
 }
 
-<!-- esto define el tamaño y la fuente del encabezado-->
-header h1 {
-    font-family: serif;
-    font-size: 32px;
-    margin-bottom: 10px;
+/* MENÚ SUPERIOR */
+header {
+    background-color: white;
+    padding: 10px;
 }
-
 
 ul {
     display: flex;
-    justify-content: center;
     list-style: none;
     gap: 10px;
-    padding: 0;
 }
 
 li {
-    padding: 8px 15px;
-    border-radius: 8px;
-    font-size: 14px;
+    background-color: white;
+    padding: 10px;
 }
 
-.btn-inicio {
-    background-color: #6b8e23;
+/* Colores de los botones del menú */
+.btn-inici {
+    background-color: #6b8e23; /* Verde inicio */
     color: white;
 }
 
-.btn-sobre {
-    background-color: #bde0fe;
-}
-
-.btn-colores {
-    background-color: #fde293;
-}
-
-.btn-contacto {
-    background-color: #ffcad4;
-}
-
-/* Secciones grandes */
-section {
-    padding: 20px;
-    border-radius: 12px;
-    margin-bottom: 15px;
-}
-
+/* SECCIONES Y SUS COLORES REALES */
 #bienvenido {
-    background-color: #d8f3dc;
-    color: black;
+    background-color: #d8f3dc; /* Verde clarito */
+    padding: 20px;
+}
+
+#bienvenido button {
+    background-color: #437a4c; /* Verde oscuro del botón */
+    color: white;
+    padding: 10px;
 }
 
 #sobre-mi {
-    background-color: #d0e6f6;
+    background-color: #d0e6f6; /* Azul clarito */
     padding: 20px;
     text-align: center;
 }
 
-#mis-cajas {
-    background-color: #fef3c7;
-}
-
 #contacto {
-    background-color: #eae4f8;
+    background-color: #eae4f8; /* Morado clarito */
+    padding: 20px;
     text-align: center;
-}
-
-/* Botones de "Leer más" y "Enviar" */
-button {
-    border: none;
-    padding: 10px 20px;
-    border-radius: 8px;
-    color: white;
-}
-
-.btn-leer {
-    background-color: #437a4c;
 }
 
 .btn-contact {
-    background-color: #6b5b95;
+    background-color: #6b5b95; /* Morado oscuro del botón */
     color: white;
-    padding: 10px 20px;
-}
-
-
-.caja {
     padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
 }
 
+/* BLOQUE Y CAJAS AMARILLAS */
+.section-sobremi-izq {
+    background-color: #fef3c7; /* Amarillo pastel */
+    padding: 20px;
+}
+
+/* Las tres cajitas de colores de dentro */
 .caja-1 {
-    background-color: #fbcfe8;
+    background-color: #fbcfe8; /* Rosa */
+    padding: 10px;
 }
 
 .caja-2 {
-    background-color: #bae6fd;
+    background-color: #bae6fd; /* Azul */
+    padding: 10px;
 }
 
 .caja-3 {
-    background-color: #c7f9cc;
+    background-color: #c7f9cc; /* Verde */
+    padding: 10px;
 }
 
+/* PIE DE PÁGINA */
 footer {
-    background-color: #4a5568;
+    background-color: #4a5568; /* Gris oscuro del footer */
     color: white;
     padding: 10px;
     text-align: center;
-    border-radius: 8px;
-    font-size: 12px;
+    font-size: 10px;
 }
