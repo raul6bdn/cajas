@@ -1,0 +1,118 @@
+
+
+body {
+    background-color: #17396d;
+    font-family: sans-serif;
+}
+
+<!-- esto define el tamaño y la fuente del encabezado-->
+header h1 {
+    font-family: serif;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+}
+
+li {
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.btn-inicio {
+    background-color: #6b8e23;
+    color: white;
+}
+
+.btn-sobre {
+    background-color: #bde0fe;
+}
+
+.btn-colores {
+    background-color: #fde293;
+}
+
+.btn-contacto {
+    background-color: #ffcad4;
+}
+
+/* Secciones grandes */
+section {
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+#bienvenido {
+    background-color: #d8f3dc;
+    color: black;
+}
+
+#sobre-mi {
+    background-color: #d0e6f6;
+    padding: 20px;
+    text-align: center;
+}
+
+#mis-cajas {
+    background-color: #fef3c7;
+}
+
+#contacto {
+    background-color: #eae4f8;
+    text-align: center;
+}
+
+/* Botones de "Leer más" y "Enviar" */
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.btn-leer {
+    background-color: #437a4c;
+}
+
+.btn-contact {
+    background-color: #6b5b95;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+.caja {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.caja-1 {
+    background-color: #fbcfe8;
+}
+
+.caja-2 {
+    background-color: #bae6fd;
+}
+
+.caja-3 {
+    background-color: #c7f9cc;
+}
+
+footer {
+    background-color: #4a5568;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 12px;
+}
